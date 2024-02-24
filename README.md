@@ -30,6 +30,7 @@ Streply is a bug and log tracker, supporting the most popular frameworks.
     - Frameworks
         - [Vue.js](./docs/javascript/frameworks/vue.md)
         - [React](./docs/javascript/frameworks/react.md)
+- [Logs formatting](./docs/logs-formatting.md)
 - Product
     - [Issues](./docs/product/issues.md)
     - [Logs](./docs/product/logs.md)
