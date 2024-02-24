@@ -1,0 +1,45 @@
+---
+sidebar_position: 1
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Quick start
+
+:::info
+You can find the TOKEN of the project in the Projects tab of your [Streply account](https://app.streply.com/projects).
+:::
+
+The first step is loading the script with SDK.
+
+```html title="HTML"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://app.streply.com/js/%token%.min.js"></script>
+</head>
+<body>
+    ...
+</body>
+</html>
+```
+
+Alternatively, you can also install the SDK via a package manager:
+
+<Tabs groupId="code" queryString>
+  <TabItem value="npm" label="NPM">
+    ```bash
+    npm install --save @streply/browser
+    ```
+  </TabItem>
+  <TabItem value="yarn" label="YARN">
+    ```bash
+    yarn add @streply/browser
+    ```
+  </TabItem>
+</Tabs>
+
+## Using a framework?
+- [Vue.js](javascript/frameworks/vue)
+- [React](javascript/frameworks/react)
