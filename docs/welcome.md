@@ -26,7 +26,7 @@ Streply is a bug and log tracker, supporting the most popular frameworks.
     - [Laravel](php/frameworks/laravel)
     - [Symfony](php/frameworks/symfony)
     - [Magento](php/frameworks/magento)
-- [JavaScript](category/js)
+- [JavaScript](category/javascript)
   - [Quick start](js/quick-start)
   - [Configuration](js/configuration)
   - [Capture events](category/capture-events-1)
