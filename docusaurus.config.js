@@ -82,7 +82,7 @@ const config = {
     scripts: [
       {
         src: 'https://plausible.io/js/script.js',
-        defer: 'defer',
+        defer: true,
         'data-domain': 'docs.streply.com'
       }
     ]
