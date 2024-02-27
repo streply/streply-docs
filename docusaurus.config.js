@@ -78,6 +78,14 @@ const config = {
         theme: prismThemes.github,
       },
     }),
+
+    scripts: [
+      {
+        src: 'https://plausible.io/js/script.js',
+        defer: 'defer',
+        'data-domain': 'docs.streply.com'
+      }
+    ]
 };
 
 export default config;
