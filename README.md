@@ -21,15 +21,15 @@ Streply is a bug and log tracker, supporting the most popular frameworks.
         - [Symfony](./docs/php/frameworks/symfony.md)
         - [Magento](./docs/php/frameworks/magento.md)
 - JavaScript
-    - [Quick start](./docs/javascript/quick-start.mdx)
-    - [Configuration](./docs/javascript/configuration.md)
+    - [Quick start](docs/js/quick-start.mdx)
+    - [Configuration](docs/js/configuration.md)
     - Capture events
-        - [Errors](./docs/javascript/capture-events/errors.md)
-        - [Logs](./docs/javascript/capture-events/logs.md)
-        - [Activities](./docs/javascript/capture-events/activities.md)
+        - [Errors](docs/js/capture-events/errors.md)
+        - [Logs](docs/js/capture-events/logs.md)
+        - [Activities](docs/js/capture-events/activities.md)
     - Frameworks
-        - [Vue.js](./docs/javascript/frameworks/vue.md)
-        - [React](./docs/javascript/frameworks/react.md)
+        - [Vue.js](docs/js/frameworks/vue.md)
+        - [React](docs/js/frameworks/react.md)
 - [Logs formatting](./docs/logs-formatting.md)
 - Product
     - [Issues](./docs/product/issues.md)

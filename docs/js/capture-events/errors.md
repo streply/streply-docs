@@ -26,7 +26,7 @@ Streply.Error('request from JS', {}, Streply.Level.Critical);
 ```
 
 :::tip 
-See available [Error levels](/javascript/configuration#errors-levels). 
+See available [Error levels](/js/configuration#errors-levels). 
 :::
 
 ## Exceptions
