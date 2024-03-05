@@ -3,6 +3,7 @@
   "position": 3,
   "link": {
     "type": "generated-index",
+    "slug": "/js/frameworks",
     "description": "See how to use Streply in the most popular JavaScript frameworks."
   }
 }

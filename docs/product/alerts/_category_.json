@@ -1,0 +1,9 @@
+{
+  "label": "Alerts",
+  "position": 4,
+  "link": {
+    "slug": "/product/alerts",
+    "type": "generated-index",
+    "description": "Notifications allow you to set rules, once met, the app will send you a message. Define your notifications in the app and Streply will notify you immediately when a particular situation occurs. Thanks to this, you won't miss anything important that happens in your app. You can not only set notifications on errors (e.g. notify when a critical error occurs) but also on activities (e.g. notify when a user pays a subscription)."
+  }
+}

@@ -3,6 +3,7 @@
   "position": 3,
   "link": {
     "type": "generated-index",
+    "slug": "/js",
     "description": "See how to use Streply in PHP projects."
   }
 }
