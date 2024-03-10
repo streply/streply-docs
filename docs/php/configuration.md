@@ -26,6 +26,7 @@ Available options:
 - `(string) environment` - Application environment
 - `(function) filterBeforeSend` - Filtering of events before sending
 - `(array) ignoreExceptions` - List of ignored exceptions
+- `(bool) backTraceInLogs` - Send full backtrace in logs (default `false`)
 
 Example of the option's usage:
 
@@ -113,4 +114,12 @@ Streply\Configuration::ignoreExceptions([
     App\Exception\QueryException::class,
     App\Exception\InvalidAuthorizationException::class,
 ]);
+```
+
+## Send backtrace in logs
+
+To improve performance, Streply only sends backtraces for errors by default. If you also want backtraces in logs, you need to enable the "backTraceInLogs" option.
+
+```php
+Streply\Configuration::backTraceInLogs();
 ```

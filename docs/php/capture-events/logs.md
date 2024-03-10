@@ -31,6 +31,14 @@ Streply\Log('users export failure', [
 ]);
 ```
 
+## Send backtrace in logs
+
+To improve performance, Streply only sends backtraces for errors by default. If you also want backtraces in logs, you need to enable the "backTraceInLogs" option.
+
+```php
+Streply\Configuration::backTraceInLogs();
+```
+
 ## Logs formatting
 
 :::tip See how to [format logs](/logs-formatting). 
