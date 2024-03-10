@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Search criteria
 
 When you enter Issues or Events, to set a notification when an event occurs that matches the search criteria you entered

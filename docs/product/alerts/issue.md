@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Issue
 
 When entering the Issue data, to set a notification when the Issue occurs again.
