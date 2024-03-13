@@ -11,6 +11,7 @@ See how to capture events in PHP.
 - [Errors](/php/capture-events/errors)
 - [Logs](/php/capture-events/logs)
 - [Activities](/php/capture-events/activities)
+- [CRON](/php/cron)
 
 ## JavaScript
 

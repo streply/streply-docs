@@ -31,7 +31,7 @@ Available statuses:
 - `open` - New bug that nobody has addressed yet
 - `done` - Bug fixed
 - `ignore` - Ignore the bug (will not be shown in the list) until it occurs again
-- `ignore` forever - Ignore this bug even if it occurs again
+- `ignore forever` - Ignore this bug even if it occurs again
 
 ## Issue tab
 
@@ -51,3 +51,8 @@ On this screen, you can also change the status, the assigned person, the priorit
 You can share the URL to the bug publicly, even with a person not registered with Streply.
 
 ![Issue](https://streply.com/images/streply.png)
+
+# How to capture errors
+
+- [PHP](/php/capture-events/errors)
+- [JavaScript](/js/capture-events/errors)
