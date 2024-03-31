@@ -1,0 +1,9 @@
+{
+  "label": "Monitors",
+  "position": 3,
+  "link": {
+    "slug": "/product/monitors",
+    "type": "generated-index",
+    "description": "Monitoring is a way to automatically check if a service, like a website or app, is working. If the service stops working (downtime), monitoring notices the problem and tells the right person on the development team."
+  }
+}
