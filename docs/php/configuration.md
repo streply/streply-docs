@@ -8,7 +8,7 @@ Configuration of the library is very simple, check out the options.
 
 ## Initialisation
 
-Initialisation of Strepla is performed using the `Initialize`, method, which should be placed at the very beginning of the code (e.g. in the index.php file). The method receives the `(string) DSN` as the first parameter.
+Initialisation of Streply is performed using the `Initialize`, method, which should be placed at the very beginning of the code (e.g. in the index.php file). The method receives the `(string) DSN` as the first parameter.
 
 :::info
 You can find the DSN code of the project in the Projects tab of your [Streply account](https://app.streply.com/projects).

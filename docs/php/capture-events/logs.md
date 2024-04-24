@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Logs
 
-The Logs method allows all information that is neither an error nor an activity to be logged.
+The Logs method allows all information that is neither an error, not an activity to be logged.
 
 The `Streply\Log` method consists of 2 parameters:
 
