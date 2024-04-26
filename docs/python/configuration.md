@@ -62,7 +62,7 @@ from streply.scope import configure_scope
 
 with configure_scope() as scope:
     scope.set_channel('my-chanel')
-    log('test-command')
+    log('test log with channel')
 ```
 
 If you want to change the scope for a all events, you can mark scope as global:
@@ -78,11 +78,11 @@ with configure_scope() as scope:
     scope.set_global_scope(True)
     scope.set_channel('my-chanel')
     
-log('test-command')
+log('some log')
 
 # ...
 
-error('test-command')
+error('some error')
 ```
 
 Available methods in scope:
