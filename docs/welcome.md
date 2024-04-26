@@ -63,3 +63,5 @@ Streply is a bug and log tracker, supporting the most popular frameworks.
     - [Issue](product/alerts/issue) 
     - [Search criteria](product/alerts/search)
     - [Errors number](product/alerts/errors-number) 
+- [Integrations](integrations)
+  - [Slack](integrations/slack)
