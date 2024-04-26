@@ -49,6 +49,51 @@ streply.set_option('environment', 'local')
 streply.set_option('release', 'my-project-name@2.3.12')
 ```
 
+## Scopes
+
+The scope helper will set up the scope for all events captured by the Streply SDK.
+
+```python
+from streply.capture import log
+from streply.streply import streply
+from streply.scope import configure_scope
+
+# ...
+
+with configure_scope() as scope:
+    scope.set_channel('my-chanel')
+    log('test-command')
+```
+
+If you want to change the scope for a all events, you can mark scope as global:
+
+```python
+from streply.capture import log
+from streply.streply import streply
+from streply.scope import configure_scope
+
+# ...
+
+with configure_scope() as scope:
+    scope.set_global_scope(True)
+    scope.set_channel('my-chanel')
+    
+log('test-command')
+
+# ...
+
+error('test-command')
+```
+
+Available methods in scope:
+
+- `scope.set_global_scope(bool)` - Setting is global scope
+- `scope.set_channel(string channel)` - Setting event channel
+- `scope.set_flag(string flag)` - Setting event flag
+- `scope.set_release(string release)` - Setting project release
+- `scope.set_environment(string environment)` - Setting project environment
+- `scope.set_url(string url)` - Setting project URL
+
 ## Adding user data
 
 ```python
