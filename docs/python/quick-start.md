@@ -42,7 +42,7 @@ You can find the DSN code of the project in the Projects tab of your [Streply ac
 
 ## See more
 - [Capture events](capture-events)
-  - [Errors](capture-events/erorrs)
+  - [Errors](capture-events/errors)
   - [Logs](capture-events/logs)
   - [Activities](capture-events/activities)
 - [Configuration](configuration)
