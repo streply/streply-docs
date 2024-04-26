@@ -15,3 +15,4 @@ If you use one of our official libraries for frameworks (for example [Laravel](/
 ## How to mark events as a command
 
 - [PHP](/php/cron)
+- [Python](/python/cron)
