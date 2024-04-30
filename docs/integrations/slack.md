@@ -6,36 +6,20 @@ sidebar_position: 1
 
 Integration with Slack is straightforward and quick. With our integration, all alerts will be sent directly to your Slack channel.
 
-1) The first step is to open the channel options. In the "**Integrations**" tab, under the "**App**" section, click the "**Add an app**" button.
+1) Navigate to the **Settings > Integrations** section and click the **Configure** button in the Slack section.
 
 ![Screen](/img/integrations/slack/1.png)
 
-2) In the app catalog, locate the "**Incoming WebHooks**" app and click the "Install" button.
+2) On the Slack integration page, click the **Add to Workspace** button.
 
 ![Screen](/img/integrations/slack/2.png)
 
-3) In the app card click the "**Add to Slack**" button.
+3) We are redirecting you to the Slack authorization page. Please select your channel and then click the **Allow** button.
 
 ![Screen](/img/integrations/slack/3.png)
 
-4) To install the application, select a Slack channel to which we will send all messages. You can change this channel later.
-
-![Screen](/img/integrations/slack/4.png)
-
-5) Find the URL in the "**Webhook URL**" field. Copy this URL and paste it into the Streply app.
-
-Once you've created a webhook, you can customize the app's name and logo.
-
-[Download Streply logo](/img/integrations/slack/streply-logo.png)
+4) That's it! Now, when we detect any errors or incidents, we will notify you immediately.
 
 ![Screen](/img/integrations/slack/5.png)
-
-6) In the Streply app, navigate to the "**Settings > Integrations**" tab and click the "**Configure**" button for Slack. This screen will display all your alerts and monitors. Paste the URL you copied from the Slack app into the "**Webhook URL**" field. Note that you can use different webhooks for each alert and monitor, corresponding to different Slack channels.
-
-![Screen](/img/integrations/slack/6.png)
-
-7) That's it! Now, when we detect any errors or incidents, we will notify you immediately.
-
-![Screen](/img/integrations/slack/7.png)
 
 Cheers devs!
